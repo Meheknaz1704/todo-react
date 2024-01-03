@@ -13,7 +13,7 @@ const TodoList = () => {
     }
     function removeActivity(i){
         const updatedListData = listData.filter((elem, id)=>{
-            return i!=id;
+            return i!==id;
         })
         setlistData(updatedListData);
     }
