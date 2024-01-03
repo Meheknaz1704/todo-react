@@ -1,0 +1,142 @@
+body{
+    background: #ccddff;
+    background-image: url(todo-back.jpg);
+}
+.app{
+    text-align: center;
+}
+
+.container{
+    background: rgb(7,2,71);
+    justify-content: center;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 2%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 3px 10px #2196F3;
+    border-radius: 10px 
+
+}
+.header{
+    width: 100%;
+    padding: 12px 20px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type=text], select{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    display: inline-block;border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+button{
+    width: 15%;
+    color: white;
+    background: #9E9E9E;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.list-heading{
+    color: rgb(15,14,14);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background: #8e8686;
+                color: white;
+    width: 40%;
+    margin-left: 50px;
+}
+.listData{
+    font-size: 20px;
+    color: grey;
+    background: #ffff;    text-align: left;
+    padding-left: 30px;
+    width: 53%;
+    padding-top: 2%;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    margin-left: 51px;
+}.btn-position{
+    position: relative;
+    left: 25%;
+    top: -54px;}
+
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 80%;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 34px;
+        box-shadow: 0px 3px 10px #2196F3;
+        border-radius: 10px  ;  }
+
+        input[type=text], select{
+            width: 66%;
+            margin-right: 10px;        }
+            button{
+                width: 29%;
+                color: white;
+                background: #9E9E9E;
+                padding: 5px;
+                height: 40px;          
+             }
+             .list-heading{
+                width: 80%;
+                font-size: 22px;
+                margin-top: -5px;
+                background: #8e8686;
+                color: white;
+                letter-spacing: 1px;  
+                margin-left: 10px;
+           }
+
+           .listData{
+            margin-left: 4px;
+            color: grey;
+            width: 54%;
+            background: #ffff;
+            box-shadow: 0px 4px 23px darkseagreen;
+            font-weight: 500;       
+            height: 29px;
+         
+        }
+        .btn-position{
+            left: 97px;
+            top: -48px;  
+              }
+             .header{
+                width: 82%;
+    font-size: 37px;
+    text-align: center;
+             }
+}
+ 
+
+
+@media only screen and (max-width: 1024px){
+    button{
+        width: 25%;
+    }
+    .btn-position{
+        left: 34%;
+    top: -51px;
+
+    }
+    .list-heading{
+        width: 75%;
+    }
+    .listData{
+        width: 59%;
+    }
+    .header{
+        font-size: 40px;
+    }
+}
